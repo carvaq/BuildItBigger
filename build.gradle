@@ -15,9 +15,3 @@ allprojects {
 		jcenter()
 	}
 }
-
-task runAllTheTests {
-	println 'Xould dsd'
-}
-
-runAllTheTests.dependsOn = [":backend:appengineRun", "app:connectedCheck", ":backend:appengineStop"]
